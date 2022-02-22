@@ -18,7 +18,7 @@ class Formatter {
 			if ( n == 0 ) {
 				result.push( this.capitalize( arrayOfWords[ n ] ) )
 			} else {
-				if ( exceptions.includes( arrayOfWords[ n ] ) ) {
+				if ( exceptions.includes( arrayOfWords[ n ] ) ) { 
 					result.push( arrayOfWords[ n ] )
 				} else {
 					result.push( this.capitalize( arrayOfWords[ n ] ) )
